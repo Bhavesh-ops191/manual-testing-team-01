@@ -18,7 +18,7 @@
 | Test type | Negative  |
 | Tester | member-b |
 | Website | https://www.saucedemo.com/ |
-| Status | Run |
+| Status | Pass |
 
 #### Purpose
 
@@ -59,46 +59,51 @@ Website returned "Username and password do not match any user in this service."
 
 ## Equivalence Partitioning
 
-### Test ID: YOUR-TEST-ID
+### Test ID: AGE-EP-10-B
 
 | Item | Details |
 |---|---|
-| Test type | Positive / Negative / Recovery |
-| Tester | Your member identifier |
-| Website | Website name |
-| Status | Not run |
+| Test type | Negative |
+| Tester | member-b |
+| Website | https://testpages.eviltester.com/apps/client-server-form-validation/ |
+| Status | Pass |
 
 #### Purpose
 
-What does this test check?
+This test checks whether the form will allow a submit if the age is below 18.
 
 #### Preconditions
 
-What must be true before the test starts?
+Firstname, Surname, Country and Notes must be valid.
 
 #### Test Data
 
 | Field | Value |
 |---|---|
-| Input name | Input value |
+| Firstname | Alex |
+| Surname | TestingStudent |
+| Age | 10 |
+| Country | Afghanistan |
+| Notes | Manual testing classroom exercise |
 
 #### Steps
 
-1.
-2.
-3.
+1. Enter the valid Firstname, Surname, Country and Notes agreed among the team.
+2. Change the Age to 10.
+3. Submit.
+4. Observe the results.
 
 #### Expected Result
 
-Write this before executing the test.
+Website returns invalid age.
 
 #### Actual Result
 
-Not recorded — test has not been executed.
+Website did not allow the submit due to the age being below 18.
 
 #### Evidence
 
-Not captured.
+[View screenshot](../evidence/member-b/age-ep-10-b.png)
 
 ---
 

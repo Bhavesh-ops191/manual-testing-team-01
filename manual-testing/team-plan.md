@@ -27,6 +27,11 @@
 ## Guided Test Allocation
 
 ## Agreed Baseline Data
+First name |  Alex
+Surname	| TestingStudent
+Age	| 30
+Country	| Afghanistan
+Notes | Manual testing classroom exercise
 
 ## Open-Ended Testing Allocation
 
