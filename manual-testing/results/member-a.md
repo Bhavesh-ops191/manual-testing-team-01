@@ -111,7 +111,7 @@ The firstname is too short.
 ---
 
 ## 2-Point Boundary Tests
-### Test ID: AGE-EP-30-A
+### Test ID: AGE-2P-17-A
 
 | Item | Details |
 |---|---|
@@ -164,3 +164,54 @@ The submission fails due to underage.
 ---
 
 ## 3-Point Boundary Tests
+### Test ID: AGE-2P-16-A
+
+| Item | Details |
+|---|---|
+| Test type | Negative |
+| Tester | Member A |
+| Website | https://testpages.eviltester.com/apps/client-server-form-validation/ |
+| Status | Pass |
+
+#### Purpose
+
+To test if excluded ages are working as intended.
+
+#### Preconditions
+
+Age must be excluded.
+
+#### Test Data
+
+| Field | Value |
+|---|---|
+| Firstname | Alex |
+| Lastname | TestingStudent |
+| Age | 16 |
+| Country | Afghanistan |
+| Notes | Manual testing classroom exercise |
+
+#### Steps
+
+1. Restore the form.
+2. Enter the valid baseline.
+3. Change only age.
+4. Write the expected result.
+5. Submit.
+6. Observe acceptance or rejection.
+7. Where displayed, verify the submitted age.
+8. Record the actual result and status in a separate test-case block.
+
+#### Expected Result
+
+The submission fails due to underage.
+
+#### Actual Result
+
+The submission fails due to underage.
+
+#### Evidence
+
+[View screenshot](../evidence/member-a/age-ep-16.png)
+
+---
