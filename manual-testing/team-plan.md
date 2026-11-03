@@ -13,7 +13,7 @@
 - Coordination responsibility:
 
 ### Member C
-- GitHub username:
+- GitHub username: xueeuee
 - Coordination responsibility:
 
 ### Member D
@@ -27,6 +27,13 @@
 ## Guided Test Allocation
 
 ## Agreed Baseline Data
+| Field | Baseline value |
+| -- | -- |
+| First name | Alex |
+| Surname	| TestingStudent |
+| Age	| 30 |
+| Country	| Afghanistan |
+| Notes | Manual testing classroom exercise |
 
 ## Open-Ended Testing Allocation
 
