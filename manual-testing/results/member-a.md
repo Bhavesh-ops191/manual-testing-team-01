@@ -53,7 +53,7 @@ The inventory page appears and products are visible.
 
 #### Evidence
 
-The sauce labs backpack costs 29.99
+[View screenshot](../evidence/member-a/login-p01.png)
 
 ---
 
