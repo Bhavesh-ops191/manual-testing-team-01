@@ -159,45 +159,50 @@ Form submitted since 18 reaches the minimum age required.
 
 ## 3-Point Boundary Tests
 
-### Test ID: YOUR-TEST-ID
+### Test ID: AGE-3P-19-B
 
 | Item | Details |
 |---|---|
-| Test type | Positive / Negative / Recovery |
-| Tester | Your member identifier |
-| Website | Website name |
-| Status | Not run |
+| Test type | Positive |
+| Tester | member-b |
+| Website | https://testpages.eviltester.com/apps/client-server-form-validation/ |
+| Status | Pass |
 
 #### Purpose
 
-What does this test check?
+This test checks whether 19 is a valid age to submit the form.
 
 #### Preconditions
 
-What must be true before the test starts?
+Firstname, Surname, Country and Notes must be valid.
 
 #### Test Data
 
 | Field | Value |
 |---|---|
-| Input name | Input value |
+| Firstname | Alex |
+| Surname | TestingStudent |
+| Age | 19 |
+| Country | Afghanistan |
+| Notes | Manual testing classroom exercise |
 
 #### Steps
 
-1.
-2.
-3.
+1. Enter the valid Firstname, Surname, Country and Notes agreed among the team.
+2. Change the Age to 19.
+3. Submit.
+4. Observe the results.
 
 #### Expected Result
 
-Write this before executing the test.
+Accepted since 18 is at the minimum age required.
 
 #### Actual Result
 
-Not recorded — test has not been executed.
+Form submitted since 19 reaches the minimum age required.
 
 #### Evidence
 
-Not captured.
+Pass
 
 ---
