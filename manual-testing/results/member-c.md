@@ -151,7 +151,7 @@ Form accepts input and successful submission of form.
 
 #### Actual Result
 
-Not recorded — test has not been executed.
+Form accepts input and successful submission of form.
 
 #### Evidence
 
