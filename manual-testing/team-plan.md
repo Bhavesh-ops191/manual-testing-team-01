@@ -81,5 +81,9 @@ The firstname is too short.
 ---
 
 ## Open-Ended Testing Allocation
+### Member A — Open-Ended Testing
+
+- Chosen area: Positive and Negative Login Testing
+- Question to investigate: what if username is wrong?
 
 ## Repository Integration Arrangements
