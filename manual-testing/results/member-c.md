@@ -139,7 +139,7 @@ Website input form is opened and empty.
 
 #### Steps
 
-1.Restores the form.
+1. Restore the form.
 2. Enters the valid baseline.
 3. Change only age to 80.
 4. Submit the form.
@@ -161,42 +161,48 @@ Not captured
 
 ## 3-Point Boundary Tests
 
-### Test ID: YOUR-TEST-ID
+### Test ID: AGE-3P-79-C
 
 | Item | Details |
 |---|---|
-| Test type | Positive / Negative / Recovery |
-| Tester | Your member identifier |
-| Website | Website name |
-| Status | Not run |
+| Test type | Positive |
+| Tester | member-c |
+| Website | https://testpages.eviltester.com/apps/client-server-form-validation/submit |
+| Status | Pass |
 
 #### Purpose
 
-What does this test check?
+Check if input age 79 is accepted.
 
 #### Preconditions
 
-What must be true before the test starts?
+Website input form is opened and age is empty. 
 
 #### Test Data
 
 | Field | Value |
 |---|---|
-| Input name | Input value |
+| First name | Alex |
+| Surname	| TestingStudent |
+| Age	| 79 |
+| Country	| Afghanistan |
+| Notes | Manual testing classroom exercise |
 
 #### Steps
 
-1.
-2.
-3.
+1. Restore the form.
+2. Enters the valid baseline.
+3. Change only age to 79.
+4. Submit the form.
+5. Observe acceptance or rejection.
 
 #### Expected Result
 
-Write this before executing the test.
+Form accepts input and successful submission of form.
 
 #### Actual Result
 
-Not recorded — test has not been executed.
+Form accepts input and successful submission of form.
 
 #### Evidence
 
