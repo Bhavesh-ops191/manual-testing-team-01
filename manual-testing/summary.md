@@ -74,9 +74,6 @@ Add links to new executions and identify reused evidence.
 [View results](results/member-d.md)
 [View results](results/member-e.md)
 
-
-
-
 ## Member Contributions
 
 ### Member A
@@ -102,9 +99,9 @@ Add links to new executions and identify reused evidence.
 - Guided results: [View results](results/member-c.md)
 - Self-designed tests: [View tests](exploratory/member-c.md)
 - Reflection: [View reflection](reflections/member-c.md)
-- Chosen investigation:
-- Main observation:
-- Pull request: Add the actual pull-request link.
+- Chosen investigation: Can a user complete checkout?
+- Main observation: User is able to checkout successfully with an item added to cart when details are filled in. However, user can still checkout when no items are added to cart.
+- Pull request: https://github.com/Bhavesh-ops191/manual-testing-team-01/pull/3/
 
 ### Member D
 
